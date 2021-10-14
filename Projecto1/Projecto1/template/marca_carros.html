@@ -1,0 +1,16 @@
+<html>
+    <head></head>
+    <body>
+        <h1>Marcas de carros</h1>
+        <table>
+            <thead>
+                <tr><th>Marca</th></tr>
+            </thead>
+            <tbody>
+                {% for marca in marcas%}
+                <tr><td>{{marca.Nombre}}</td></tr>
+                {% endfor %}
+            </tbody>
+        </table>
+    </body>
+</html>
